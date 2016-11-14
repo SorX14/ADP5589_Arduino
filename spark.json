@@ -1,6 +1,6 @@
 {
 	"name": "ADP5589",
-	"author": "deanm1278",
+	"author": "SorX14",
 	"version": "1.0.0",
 	"license": "GNU Lesser General Public License",
 	"description": "Driver for ADP5589 matrix keypad decoder"
