@@ -21,18 +21,7 @@
 #ifndef _ADP5589_H_
 #define _ADP5589_H_
 
-#if (ARDUINO >= 100)
- #include "Arduino.h"
-#else
- #include "WProgram.h"
-#endif
-
-//not tested with this little guy
-#ifdef __AVR_ATtiny85__
-  #include <TinyWireM.h>
-#else
-  #include <Wire.h>
-#endif
+#include "application.h"
 
 #define ADP5589_DEFAULT_ADDR 0x34
 
