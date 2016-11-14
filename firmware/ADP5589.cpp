@@ -5,14 +5,6 @@
  * MIT license
  */
 
-//not tested with this little guy
-#ifdef __AVR_ATtiny85__
-  #include <TinyWireM.h>
-  #define Wire TinyWireM
-#else
-  #include <Wire.h>
-#endif
-
 #include "ADP5589.h"
 
 static const uint8_t gpio_dir_reg[] = {
