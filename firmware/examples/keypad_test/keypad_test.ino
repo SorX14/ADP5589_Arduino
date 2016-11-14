@@ -25,7 +25,7 @@
  * 
  */
 
-#include "ADP5589.h"
+#include "ADP5589/ADP5589.h"
 
 //declare how may leds we will use
 #define NUMLEDS 4
